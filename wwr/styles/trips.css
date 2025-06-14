@@ -112,3 +112,14 @@ tr:hover {
         width: 100%;
     }
 }
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+footer img {
+    display: flex;
+    margin-top: 15px;
+
+}
