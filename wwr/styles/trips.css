@@ -18,7 +18,21 @@
     margin-top: 1rem;
     transition: background-color 0.3s;
 }
-
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff6b35;
+    text-align: center;
+    text-decoration: none;
+}
+nav  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: right;
+    margin: 0 auto;
+}
+body {
+    background: #a1e29f;
+}
 .cta-button:hover {
     background-color: #e05a2b;
 }
@@ -119,7 +133,8 @@ footer {
     padding: 1rem;
 }
 footer img {
-    display: flex;
+    display: flexbox;
+    justify-content: left;
     margin-top: 15px;
-
+    padding:1%
 }
